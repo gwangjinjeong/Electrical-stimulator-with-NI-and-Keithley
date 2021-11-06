@@ -1,0 +1,62 @@
+
+
+
+## 1. front panel
+control과 indicator로 나뉜다.
+- Control :  제어 값을 넣는 화면 (흰색)
+- Indicator : 결과 값 출력화면 (회색)
+- Constant : 특정 상수값을 의미한다. 
+
+프로그래밍시 와이어를 Control에서 indicator로 연결해야 한다
+Control 
+### 1) Data type
+- Numeric (주황색 or 파란색)
+- Boolean :  logical operator 사용시 사용가능 (녹색 )
+- String (보라색)
+
+모두 Control와 indicator로 속성을 지정해 줄수 있다.
+
+## 2. SubVI
+Functions >> All Funtions에서 Select a VI에서 불러온다.
+### 1) Connector를 만들어 주는법
+1. icon 쪽에 오른쪽 클릭 Show Connector를 선택
+2. (반대주의) 빈칸의 오른쪽에 Control, 왼쪽에 Indicator를
+Wire를 통해 연결해 주자.
+3. 만약 connector가 부족하면 Add terminal 선택으로 더 만들자
+4. Control(input)의 경우 연한 주황색
+Indicator(output)의 경우 진한 주황색  
+
+### 2) 일부만 SubVI로 만들어 주는법
+1. 해당 function이 있는 control과 indicator를 모두 드래그
+2. Edit >> Create SubVI
+3. Save
+## 3. Structures
+### 1) While Loop
+- i 는 iteration의 준말로  더블클릭후 Create  constants, Control, Indicator를 통해  컨트롤 할 수 있다.
+- O는 **Stop if ture** 와 ** 
+
+## 4. Waveform Chart
+Waveform **Chart**  / Waveform **Graph**
+Waveform Graph는 Array 변수만 데이터로 받을 수 있다.
+### (1) 특징
+- Chart는 Array뿐만아니라 numeric indicator도 받을 수 있다.
+- History를 가진 numeric indicator를 가지고 있다.
+- History 용량은 1024개로 바꾸고 싶을땐 Chart History Length 변경
+- Update 방식 변경
+	- Strip Chart : 일반적으로 데이터를 연속하여 그려준다.
+	- Scope Chart : 화면을 그리고 지우고 새로 그려주고
+	- Sweep Chart : 빨간색 경계선을 다라서 새로운 데이터를 바꾼다.
+- X Scale Y scale을 선택할 수 있다.
+AutoScale X or Y 하면 데이터에 따라 화면의 스케일이 바뀐다.
+
+# 19.06.21
+## DMM 속성을 통해서 평균을 구할수잇다는 것을 발견
+![
+](https://lh3.googleusercontent.com/uwjzWivymoGSZODb1Jh0YZ8QRKa2dcJVJYOpePSj0iI27Gpq2jaw_jEOApj09tlX730QM2zfoXLI "avg")
+[https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000001DdO2SAK&l=ko-KR](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000001DdO2SAK&l=ko-KR)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUzNDMwMDMyNywtNDk4MTU4MTA0LC0xOD
+Y5Mzc5MjUxLC0xMDY1NTczMzI3LC0xNTc5NzgyMDk2LDk1Mjcw
+Mzc2NCwtMTgyMjkwMDExMywtOTk2ODIyNzkyLDY2NzAwNTQ0Mi
+wxMzQwNzYwMDMyLDczMDk5ODExNl19
+-->

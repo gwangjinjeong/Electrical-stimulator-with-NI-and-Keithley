@@ -1,0 +1,32 @@
+https://www.keysight.com/main/editorial.jspx?cc=KR&lc=kor&ckey=488498&nid=-33211.959018.08&id=488498
+����
+��� 2018 �������� �Ͽ���.
+
+
+1. NI-VISA (NIVISA1800full.exe) ��ġ�� - release date : 2018.
+ - ����
+ - unzip
+ - ��ġ�Ϸ� �� �����
+
+
+2.  Agilent IO Libraries Suite (IOLibSuite_18_1_22924_2) ��ġ��
+ - ����̹� ��� ��ġ �Ϸ� �� �����Ȱͱ��� Ȯ��
+ - NI MAX ����
+   error) �ʼ� ���̺귯���� mxrmcfg.dll�� �ε���� �ʾ� NI MAX�� ���࿡ �����߽��ϴ�.
+      =>https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z000000P9okSAC&l=ko-KR�� ����
+        - NI-DAQmx 18.0 Download
+        - NIDAQ1800f1 ����Ǯ��
+	- setup ������ ���� ��ġ
+	  error) ������ �ȵǴ°��� Ȯ��
+	      	=> NI Update Service�� ����
+		   NI-DAQmx, NI-VISA, NI system configration 18.5 �� LabVIEW 2018 (32��Ʈ) f2��ġ
+	  error) ������ �ȵǴ°��� Ȯ��
+		=> NI4882�� �ٿ�ε�
+
+
+
+
+���Ŀ��� 64bit�� ������ �������� ������ �ִ�.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY0NTE1NTc5NV19
+-->
